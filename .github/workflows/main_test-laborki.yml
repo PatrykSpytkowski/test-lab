@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'test-laborki'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0c550d4f871147089a22e1a38c130dbc }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0C550D4F871147089A22E1A38C130DBC }}
         package: .
